@@ -1,0 +1,4 @@
+Winforms eller WPF
+Openweathermaps.org (http)
+deserialisere i objekter (http klient el. RestSharp)
+Præsentere i GUI
