@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BLL;
+using Core;
 
 namespace Client
 {
@@ -20,9 +22,26 @@ namespace Client
     /// </summary>
     public partial class MainWindow : Window
     {
+        static BWeatherMap bMap = new BWeatherMap();
+        WeatherMap wm = bMap.RestSharp();
+
         public MainWindow()
         {
+            
             InitializeComponent();
+            getWeatherMap();
+        }
+
+        public void getWeatherMap()
+        {
+            richTextBox.Selection.Text = "";
+
+            string name = wm.name;
+            string country = wm.sys.country;
+            List<Weather> wList = wm.weather;
+            richTextBox.Selection.Text = $"By: {name} \nLand: {country}";
+
+            dataGrid.ItemsSource = wList;
         }
     }
 }

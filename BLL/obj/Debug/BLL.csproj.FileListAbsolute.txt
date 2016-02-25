@@ -1,0 +1,9 @@
+C:\Users\micha\Documents\Visual Studio 2015\Projects\restSharp\BLL\bin\Debug\BLL.dll
+C:\Users\micha\Documents\Visual Studio 2015\Projects\restSharp\BLL\bin\Debug\BLL.pdb
+C:\Users\micha\Documents\Visual Studio 2015\Projects\restSharp\BLL\bin\Debug\Core.dll
+C:\Users\micha\Documents\Visual Studio 2015\Projects\restSharp\BLL\bin\Debug\RestSharp.dll
+C:\Users\micha\Documents\Visual Studio 2015\Projects\restSharp\BLL\bin\Debug\Core.pdb
+C:\Users\micha\Documents\Visual Studio 2015\Projects\restSharp\BLL\bin\Debug\RestSharp.xml
+C:\Users\micha\Documents\Visual Studio 2015\Projects\restSharp\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\micha\Documents\Visual Studio 2015\Projects\restSharp\BLL\obj\Debug\BLL.dll
+C:\Users\micha\Documents\Visual Studio 2015\Projects\restSharp\BLL\obj\Debug\BLL.pdb
