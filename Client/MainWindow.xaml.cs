@@ -39,7 +39,8 @@ namespace Client
             string name = wm.name;
             string country = wm.sys.country;
             List<Weather> wList = wm.weather;
-            richTextBox.Selection.Text = $"By: {name} \nLand: {country}";
+            richTextBox.Selection.Text = $"By: {name} \n" +
+                                         $"Land: {country}";
 
             dataGrid.ItemsSource = wList;
         }
